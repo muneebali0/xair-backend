@@ -1,0 +1,32 @@
+{
+  "local": {
+    "PORT": 4739,
+    "IP": "192.168.1.28",
+    "MONGODB_URI": "mongodb://localhost:27017/xair-app-db",
+    "JWT_SECRET": "3ZGErMDCyxTOZYFr56HGD",
+    "BASE_UPLOAD_DIR": "/home/ubuntu/uploads/sts-app/",
+    "NODE_ENV": "local",
+    "AWS_BUCKET": "sts-dev-bucket",
+    "EMAIL_API_URL": "https://api.sendgrid.com/v3/mail/send"
+  },
+  "dev": {
+    "PORT": 4739,
+    "IP": "192.168.1.28",
+    "MONGODB_URI": "mongodb://localhost:27017/xair-app-db",
+    "JWT_SECRET": "3ZGErMDCyxTOZYFr56HGD",
+    "BASE_UPLOAD_DIR": "/home/ubuntu/uploads/sts-app/",
+    "NODE_ENV": "dev",
+    "AWS_BUCKET": "sts-dev-bucket",
+    "EMAIL_API_URL": "https://api.sendgrid.com/v3/mail/send"
+  },
+  "prod": {
+    "PORT": 4739,
+    "IP": "192.168.1.28",
+    "MONGODB_URI": "mongodb://172.31.66.128:27017/xair-app-db",
+    "JWT_SECRET": "3ZGErMDCyxTOZYFr56HGD",
+    "BASE_UPLOAD_DIR": "/home/ubuntu/uploads/sts-app/",
+    "NODE_ENV": "prod",
+    "AWS_BUCKET": "sts-prod-bucket",
+    "EMAIL_API_URL": "https://api.sendgrid.com/v3/mail/send"
+  }
+}
